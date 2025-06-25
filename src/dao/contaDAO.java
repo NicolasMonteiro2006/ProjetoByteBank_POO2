@@ -84,6 +84,22 @@ public class contaDAO {
         }
     }
 }
+
+    public void debitarSaldo(int idUsuario, double valor) throws Exception {
+    String sql = "UPDATE conta_corrente SET saldo = saldo - ? WHERE id_usuario = ? AND saldo >= ?";
+    try (PreparedStatement stmt = conn.prepareStatement(sql)) {
+        stmt.setDouble(1, valor);
+        stmt.setInt(2, idUsuario);
+        stmt.setDouble(3, valor); 
+        int rows = stmt.executeUpdate();
+        if (rows == 0) {
+            throw new Exception("Saldo insuficiente ou conta não encontrada.");
+        }
+    } catch (Exception e) {
+        throw new Exception("Erro ao debitar saldo: " + e.getMessage());
+    }
+}
+
     
     public boolean verificarSenha(int idUsuario, String senha) throws Exception {
     String sql = "SELECT * FROM usuario WHERE id_usuario = ? AND senha_hash = md5(?)";
