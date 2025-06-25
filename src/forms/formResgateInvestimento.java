@@ -123,6 +123,7 @@ public class formResgateInvestimento extends javax.swing.JFrame {
         btnResgatar = new javax.swing.JButton();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.DISPOSE_ON_CLOSE);
+        setTitle("Resgate Investimento");
 
         jLabel1.setFont(new java.awt.Font("Calibri", 1, 36)); // NOI18N
         jLabel1.setText("Banco ByteBank");
@@ -238,6 +239,7 @@ public class formResgateInvestimento extends javax.swing.JFrame {
         );
 
         pack();
+        setLocationRelativeTo(null);
     }// </editor-fold>//GEN-END:initComponents
 
     private void txtSaldoResgateActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_txtSaldoResgateActionPerformed

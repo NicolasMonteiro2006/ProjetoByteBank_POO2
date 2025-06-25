@@ -61,6 +61,7 @@ public class formCadastroContaSalario extends javax.swing.JFrame {
         Nome7 = new javax.swing.JLabel();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
+        setTitle("Cadastro Conta Salario");
 
         btnContaCorrente.setFont(new java.awt.Font("Calibri", 1, 25)); // NOI18N
         btnContaCorrente.setText("Conta Corrente");
@@ -160,8 +161,7 @@ public class formCadastroContaSalario extends javax.swing.JFrame {
                         .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                             .addGroup(layout.createSequentialGroup()
                                 .addGap(293, 293, 293)
-                                .addComponent(btnSalvarContaSalario)
-                                .addGap(80, 80, 80))
+                                .addComponent(btnSalvarContaSalario))
                             .addGroup(layout.createSequentialGroup()
                                 .addComponent(Nome7)
                                 .addGap(18, 18, 18)
@@ -224,6 +224,7 @@ public class formCadastroContaSalario extends javax.swing.JFrame {
         );
 
         pack();
+        setLocationRelativeTo(null);
     }// </editor-fold>//GEN-END:initComponents
 
     private void btnContaCorrenteActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnContaCorrenteActionPerformed

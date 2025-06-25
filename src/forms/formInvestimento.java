@@ -72,6 +72,7 @@ public class formInvestimento extends javax.swing.JFrame {
         txtValorInvestimento = new javax.swing.JTextField();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.DISPOSE_ON_CLOSE);
+        setTitle("Investimentos");
 
         jLabel1.setFont(new java.awt.Font("Calibri", 1, 36)); // NOI18N
         jLabel1.setText("Banco ByteBank");
@@ -207,6 +208,7 @@ public class formInvestimento extends javax.swing.JFrame {
         );
 
         pack();
+        setLocationRelativeTo(null);
     }// </editor-fold>//GEN-END:initComponents
 
     private void txtSaldoInvestimentoActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_txtSaldoInvestimentoActionPerformed

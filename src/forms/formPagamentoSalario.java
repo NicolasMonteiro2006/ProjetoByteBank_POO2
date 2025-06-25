@@ -114,6 +114,7 @@ public class formPagamentoSalario extends javax.swing.JFrame {
         btnPagarSalario = new javax.swing.JButton();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.DISPOSE_ON_CLOSE);
+        setTitle("Pagamento Salario");
 
         jLabel1.setFont(new java.awt.Font("Calibri", 1, 36)); // NOI18N
         jLabel1.setText("Banco ByteBank");
@@ -218,6 +219,7 @@ public class formPagamentoSalario extends javax.swing.JFrame {
         );
 
         pack();
+        setLocationRelativeTo(null);
     }// </editor-fold>//GEN-END:initComponents
 
     private void txtSaldoPagamentoActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_txtSaldoPagamentoActionPerformed

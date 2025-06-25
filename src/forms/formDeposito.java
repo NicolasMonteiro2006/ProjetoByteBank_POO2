@@ -107,6 +107,7 @@ public class formDeposito extends javax.swing.JFrame {
         btnDeposito = new javax.swing.JButton();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.DISPOSE_ON_CLOSE);
+        setTitle("Deposito");
 
         jLabel1.setFont(new java.awt.Font("Calibri", 1, 36)); // NOI18N
         jLabel1.setText("Banco ByteBank");
@@ -249,6 +250,7 @@ public class formDeposito extends javax.swing.JFrame {
         );
 
         pack();
+        setLocationRelativeTo(null);
     }// </editor-fold>//GEN-END:initComponents
 
     private void txtSaldoDepositoActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_txtSaldoDepositoActionPerformed
