@@ -1,64 +1,32 @@
-#Projeto ByteBank - POO2
-Este é um projeto Java que simula um sistema bancário simples, desenvolvido como parte do aprendizado de Programação Orientada a Objetos (POO) avançada.
+# ByteBank - Sistema Bancário em Java 🏦
 
-Visão Geral
-O Projeto ByteBank implementa funcionalidades básicas de um sistema bancário, incluindo:
+Projeto desenvolvido para aplicar conceitos avançados de Programação Orientada a Objetos (POO) em Java, simulando as operações básicas de um banco digital.
 
-Contas bancárias (corrente e poupança)
+## 📌 Funcionalidades Principais
 
-Operações de depósito, saque e transferência
+- **Sistema de Contas Bancárias**
+  - Conta Corrente (com taxa de operação)
+  - Conta Poupança (com rendimento)
+  - Operações: Depósito, Saque, Transferência
 
-Sistema de autenticação
+- **Módulo de Segurança**
+  - Sistema de autenticação de usuários
+  - Validação de credenciais
 
-Registro de tributação
+- **Sistema Tributário**
+  - Cálculo automático de tributos
+  - Interface para diferentes regimes tributários
 
-Tecnologias Utilizadas
-Java 11+
+## 🛠️ Tecnologias Utilizadas
 
-Maven (para gerenciamento de dependências)
+- Java 11+
+- Maven
+- Paradigma OO (Herança, Polimorfismo, Interfaces)
+- Tratamento de exceções customizadas
 
-Paradigma de Orientação a Objetos
+## 🚀 Como Executar
 
-Funcionalidades Principais
-Sistema de Contas Bancárias
-
-Conta Corrente
-
-Conta Poupança
-
-Funcionalidades comuns (depósito, saque, transferência)
-
-Sistema de Autenticação
-
-Implementação de interface para autenticação
-
-Gerenciamento de credenciais
-
-Sistema Tributário
-
-Cálculo de tributos para diferentes operações
-
-Implementação de interfaces para tributação
-
-Como Executar o Projeto
-Clone o repositório:
-
-bash
+1. Clone o repositório:
+```bash
 git clone https://github.com/NicolasMonteiro2006/ProjetoByteBank_POO2.git
-Importe o projeto em sua IDE favorita (Eclipse, IntelliJ IDEA, etc.)
-
-Execute a classe principal src/br/com/bytebank/banco/teste/Teste.java
-
-Estrutura do Projeto
-text
-src/
-├── br/com/bytebank/banco/
-│   ├── modelo/          # Classes de domínio (Conta, Cliente, etc.)
-│   ├── teste/           # Classes de teste e exemplos
-│   ├── autenticacao/    # Sistema de autenticação
-│   └── tributacao/      # Sistema tributário
-Contribuição
-Contribuições são bem-vindas! Sinta-se à vontade para abrir issues ou enviar pull requests.
-
-Licença
-Este projeto está licenciado sob a licença MIT - veja o arquivo LICENSE para mais detalhes.
+```
