@@ -5,9 +5,9 @@ Projeto desenvolvido para aplicar conceitos avançados de Programação Orientad
 ## 📌 Funcionalidades Principais
 
 - **Sistema de Contas Bancárias**
-  - Conta Corrente (com taxa de operação)
-  - Conta Poupança (com rendimento)
-  - Operações: Depósito, Saque, Transferência
+  - Conta Corrente
+  - Conta Salario (Recebimento de Salario)
+  - Operações: Depósito, Saque, Transferência, Investimento
 
 - **Módulo de Segurança**
   - Sistema de autenticação de usuários
@@ -21,8 +21,7 @@ Projeto desenvolvido para aplicar conceitos avançados de Programação Orientad
 
 - Java 11+
 - Maven
-- Paradigma OO (Herança, Polimorfismo, Interfaces)
-- Tratamento de exceções customizadas
+- Paradigma POO (Herança, Polimorfismo, Interfaces)
 
 ## 🚀 Como Executar
 
