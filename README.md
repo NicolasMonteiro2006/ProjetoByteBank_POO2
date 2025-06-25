@@ -30,3 +30,16 @@ Projeto desenvolvido para aplicar conceitos avançados de Programação Orientad
 ```bash
 git clone https://github.com/NicolasMonteiro2006/ProjetoByteBank_POO2.git
 ```
+2. Importe como projeto Maven em sua IDE
+
+3. Execute a classe principal:
+```bash
+src/forms/formCadastroContaCorrente.form
+```
+## 🤝 Contribuição
+
+Contribuições são bem-vindas! Sinta-se à vontade para abrir issues ou enviar pull requests.
+
+## 📜 Licença
+
+Este projeto está licenciado sob a licença MIT - veja o arquivo [LICENSE](LICENSE) para mais detalhes.
