@@ -7,7 +7,7 @@ package forms;
 import beans.Investimento;
 import dao.InvestimentoDAO;
 import dao.contaCorrenteDAO;
-import dao.ContaDAO;
+import dao.contaDAO;
 import javax.swing.JOptionPane;
 import java.time.LocalDate;
 import java.sql.Date;
@@ -244,8 +244,8 @@ public class formInvestimento extends javax.swing.JFrame {
         InvestimentoDAO dao = new InvestimentoDAO();
         dao.inserirInvestimento(inv);
 
-        ContaDAO contaDAO = new ContaDAO();
-        contaDAO.debitarSaldo(idUsuarioLogado, valor);
+        contaDAO ContaDAO = new contaDAO();
+        ContaDAO.debitarSaldo(idUsuarioLogado, valor);
 
 
         JOptionPane.showMessageDialog(this, "Investimento registrado com sucesso!");
